@@ -1,19 +1,9 @@
-# LoginJS
-Este repositório contém um sistema de cadastro e login simples, desenvolvido com HTML, CSS e JavaScript.
-Hospedado em: https://ichrystm.github.io/LoginJS/
+# LoginJS v2
+Este repositório contém um sistema de cadastro e login de usuários desenvolvido em HTML, CSS e JavaScript que consome a API APILoginJS para cadastrar usuários em um banco de dados MongoDB
 
 # Descrição
-O LoginJS, é uma página onde você pode se cadastrar e realizar o login.
-Desenvolvido com HTML, CSS + Materialize e JavaScript puro.
-OBS: As contas cadastradas, são zearadas ao recarregar ou sair da página.
-
-# Atualizações
-
-V1.1:
-
-1. Adicionada função de validação de e-mail, onde o cadastro só pode ser realizado com um e-mail válido.
-2. Adicionada função de tamanho mínimo de senha (8 caracteres).
+O LoginJS v2, é uma página onde você pode se cadastrar e realizar o login.
 
 # Atualizações futuras
 
-Integração com banco de dados MongoDB para armazenar os usuários cadastrados.
+1. funcionalidade de login será adicionada
