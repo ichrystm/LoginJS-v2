@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/stylelogin.css">
+    <link rel="stylesheet" href="./styles/stylecadastro.css">
+    <link rel="stylesheet" href="./styles/stylestats.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="main">
+        <div class="box-login">
+            <div class="title-login">
+                <h3 class="box-title">Login</h3>
+            </div>
+            <div class="box-email">
+                <div id="ser" class="input-field col s12">
+                    <input id="email" type="email" class="validate" placeholder="E-mail">
+                    <label for="email"></label>
+                </div>
+            </div>
+            <div class="box-password">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate" placeholder="Senha">
+                    <label for="password"></label>
+                  </div>
+            </div>
+            <div class=box-btn>
+                <a id="login-button" class="btn purple darken-1">Login</a>
+            </div>
+            <div class="box-account">
+                <h5 id="txt-account">Não possui uma conta? <a id="signup-open"href="#">Cadastre-se!</a></h5>
+            </div>
+        </div>
+        <div class="login-status">
+            <h4 class="stats-message">Login Realizado!</h4>
+        </div>
+    </div>
+        <div class="bg-modal">
+            <div class="modal-box">
+                <div id="close-btn"class="close-box"><a id="close-btn" href="#">X</a></div>
+                <div class="signup-box">
+                    <h5 class="signup">Cadastro</h5>
+                </div>
+                <div class="signup-box">
+                    <div class="input-field col s6">
+                        <input placeholder="Nome" id="user_name" type="text" class="validate">
+                        <label for="first_name"></label>
+                      </div>
+                </div>
+                <div class="signup-box">
+                    <div id="ser" class="input-field col s12">
+                        <input id="user_email" type="email" class="validate" placeholder="E-mail">
+                        <label for="email"></label>
+                    </div>
+                </div>
+                <div class="signup-box">
+                    <div class="input-field col s12">
+                        <input id="user_password" type="password" class="validate" placeholder="Senha">
+                        <label for="password"></label>
+                      </div>
+                </div>
+                <div class="signup-btn">
+                    <a id="submit-button" class="btn purple darken-1">Submeter</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- <script type="module" src="../scripts/login.js"></script> -->
+        <script type="module" src="../scripts/cadastro.js"></script>
+        <!-- <script type="module" src="../scripts/status.js"></script> -->
+</body>
+</html>

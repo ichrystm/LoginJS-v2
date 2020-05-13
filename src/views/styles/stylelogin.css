@@ -1,0 +1,62 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+:root {
+    --bgcolor: #f5ccff;
+    --primary-color: #7a0099;
+}
+
+input {
+    color: var(--bgcolor)
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgcolor);
+}
+
+.box-login {
+    width: 45%;
+    height: 65%;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 6px 10px 2px 0px rgba(0, 0, 0, 0.12)
+}
+
+.box-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 160%;
+    color: var(--bgcolor);
+}
+
+.title-login, .box-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.box-email, .box-password, .box-account {
+    width: 60%;
+    height: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box-btn{
+    margin-top: 10%;
+}
+
+.box-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#txt-account {
+    color: var(--bgcolor);
+    font-size: 90%;
+}
+
+
