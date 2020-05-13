@@ -8,13 +8,11 @@ function showMessage() {
 }
 
 function whichStatus() {
-    if(loginstatus == 0){
-        document.querySelector(".stats-message").innerHTML="Nenhum usuário cadastrado no sistema."
-    }if(loginstatus == 2){
+    if(loginstatus == 401){
         document.querySelector(".stats-message").innerHTML="Senha incorreta."
-    }if(loginstatus == 3){
+    }if(loginstatus == 404){
         document.querySelector(".stats-message").innerHTML="Usuário não encontrado."
-    }if(loginstatus == 4){
+    }if(loginstatus == 200){
         document.querySelector(".stats-message").innerHTML="Login Realizado."
     }
 }

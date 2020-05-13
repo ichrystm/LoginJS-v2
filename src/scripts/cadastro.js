@@ -1,7 +1,6 @@
 
 export { getUserInfo };
 
-let loginstatusreg = 0;
 
 document.getElementById('signup-open').addEventListener('click', function() {
     document.querySelector(".bg-modal").style.display = 'flex';
@@ -74,11 +73,11 @@ const sendUserToApi = () => {
         email: getUserInfo().email,
         password: getUserInfo().password,
     })
-    .then(function() {
-        console.log('Usuário enviado a API')
+    .then(function(response) {
+        alert('Usuário cadastrado com sucesso');
     })
-    .catch(function() {
-        console.log('Erro ao enviar a API')
+    .catch(function(error) {
+        console.log('Erro ao cadastrar o usuário')
     })
 
 }
