@@ -4,6 +4,8 @@ Este repositório contém um sistema de cadastro e login de usuários desenvolvi
 # Descrição
 O LoginJS v2, é uma página onde você pode se cadastrar e realizar o login.
 
+Protótipo da aplicação final: https://github.com/ichrystm/LoginJS
+
 # Atualizações futuras
 
 1. funcionalidade de login será adicionada
